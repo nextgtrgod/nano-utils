@@ -20,6 +20,4 @@ let random = {
     },
 }
 
-console.log('i`m here')
-
 module.exports = random
