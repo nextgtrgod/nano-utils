@@ -18,4 +18,4 @@ class Events {
 
 let events = new Events()
 
-module.exports = { events }
+module.exports = events
