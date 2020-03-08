@@ -17,4 +17,4 @@ let checkBrowser = () => {
     else if (saf > 0) return 'safari'
 }
 
-module.exports = { checkBrowser }
+module.exports = checkBrowser

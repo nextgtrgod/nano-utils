@@ -3,4 +3,4 @@ let remap = (n, inMin, inMax, outMin, outMax) => (
 	( (n - inMin) * (outMax - outMin) / (inMax - inMin) + outMin )
 )
 
-export default remap
+module.exports = remap
