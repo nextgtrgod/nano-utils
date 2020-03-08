@@ -1,11 +1,14 @@
 
 // module.exports = {
-// 	checkBrowser: 	require('./tools/checkBrowser'),
-// 	clamp: 			require('./tools/clamp'),
-// 	delay: 			require('./tools/delay'),
-// 	events: 		require('./tools/events'),
-// 	mod: 			require('./tools/mod'),
-// 	random:			require('./tools/random'),
-// 	mod: 			require('./tools/delay'),
-// 	remap: 			require('./tools/remap'),
+// 	checkBrowser: 	require('./src/checkBrowser'),
+// 	clamp: 			require('./src/clamp'),
+// 	delay: 			require('./src/delay'),
+// 	events: 		require('./src/events'),
+// 	mod: 			require('./src/mod'),
+// 	random:			require('./src/random'),
+// 	mod: 			require('./src/delay'),
+// 	remap: 			require('./src/remap'),
 // }
+
+module.exports.random = require('./src/random')
+module.exports.events = require('./src/events')
