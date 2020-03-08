@@ -1,6 +1,10 @@
 
-let events = require('./events')
+let random = require('./random')
+let delay = require('./delay')
+let mod = require('./mod')
 
 module.exports = {
-	events,
+	random,
+	delay,
+	mod,
 }
