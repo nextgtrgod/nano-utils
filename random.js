@@ -1,23 +1,23 @@
 
 let random = {
-    rnd: Math.random,
+	rnd: Math.random,
 
-    from: function(arr) {
-        return arr[ ~~(this.rnd() * arr.length) ]
-    },
+	from(arr) {
+		return arr[~~(this.rnd() * arr.length)]
+	},
 
-    range: function(min, max) {
-        return min - .5 + this.rnd() * (max - min + 1)
-    },
+	range(min, max) {
+		return min - .5 + this.rnd() * (max - min + 1)
+	},
 
-    seed: function(seed) {
-        this.rnd = () => {
-            let x = Math.sin(seed++) * 10000
-            return x - Math.floor(x)
-        }
+	seed(seed) {
+		this.rnd = () => {
+			let x = Math.sin(seed++) * 10000
+			return x - Math.floor(x)
+		}
 
-        return this
-    },
+		return this
+	},
 }
 
 module.exports = random
